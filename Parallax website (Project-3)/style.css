@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.bg_img_1,
+.bg_img_2,
+.bg_img_3,
+.bg_img_4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg_img_1 {
+  background-image: url(./Images/nature_1.jpg);
+  min-height: 100%;
+}
+.bg_img_2 {
+  background-image: url(./Images/nature_2.jpg);
+  min-height: 400px;
+}
+.bg_img_3 {
+  background-image: url(./Images/nature_5.jpg);
+  min-height: 400px;
+}
+.bg_img_4 {
+  background-image: url(./Images/nature_6.jpg);
+  min-height: 400px;
+}
+.img_text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 300;
+  color: black;
+}
+.text_bg {
+  background: #313534;
+  padding: 20px;
+  color: #fff;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.text_section {
+  background: #f4f4f4;
+  color: #666;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.text_bg_light {
+  background: #1a1a1a6d;
+  padding: 20px;
+  color: #fff;
+}
+.text_section_dark {
+  background: #313534;
+  color: #fff;
+}
